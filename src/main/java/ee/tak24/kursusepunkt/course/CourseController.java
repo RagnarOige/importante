@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/courses")
-public class CourseController {
+public class CourseController{
 
   private final CourseService courseService;
 
